@@ -1,7 +1,7 @@
 arpack:
 - '3.7'
 boost_cpp:
-- 1.74.0
+- 1.72.0
 bzip2:
 - '1'
 c_compiler:
@@ -70,6 +70,8 @@ zip_keys:
 - - c_compiler_version
   - cxx_compiler_version
   - fortran_compiler_version
+- - cdt_name
+  - docker_image
 - - python
   - numpy
 zlib:
